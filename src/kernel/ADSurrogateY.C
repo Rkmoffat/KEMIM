@@ -1,6 +1,6 @@
 #include "ADSurrogateY.h"
 
-registerMooseObject("catApp", ADSurrogateY);
+registerMooseObject("kemimApp", ADSurrogateY);
 
 InputParameters
 ADSurrogateY::validParams()

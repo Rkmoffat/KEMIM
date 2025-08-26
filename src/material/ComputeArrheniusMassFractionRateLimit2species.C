@@ -2,7 +2,7 @@
 
 #include "ComputeArrheniusMassFractionRateLimit2species.h"
 
-registerMooseObject("HeatConductionApp", ComputeArrheniusMassFractionRateLimit2species);
+registerMooseObject("kemimApp", ComputeArrheniusMassFractionRateLimit2species);
 
 InputParameters
 ComputeArrheniusMassFractionRateLimit2species::validParams()

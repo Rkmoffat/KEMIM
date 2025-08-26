@@ -10,7 +10,7 @@
 #include "ArtVisJ2StressLIPIT.h"
 #include "MathUtils.h"
 
-registerMooseObject("catApp", ArtVisJ2StressLIPIT);
+registerMooseObject("kemimApp", ArtVisJ2StressLIPIT);
 
 InputParameters
 ArtVisJ2StressLIPIT::validParams()

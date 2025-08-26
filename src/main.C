@@ -6,12 +6,13 @@
 //*
 //* Licensed under LGPL 2.1, please see LICENSE for details
 //* https://www.gnu.org/licenses/lgpl-2.1.html
-#include "KEMIMTestApp.h"
+
+#include "kemimTestApp.h"
 #include "MooseMain.h"
 
 // Begin the main program.
 int
 main(int argc, char * argv[])
 {
-  return Moose::main<KEMIMTestApp>(argc, argv);
+  return Moose::main<kemimTestApp>(argc, argv);
 }

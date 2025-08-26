@@ -9,7 +9,7 @@
 
 #include "ADArtVisJ2Stress.h"
 
-registerMooseObject("catApp", ADArtVisJ2Stress);
+registerMooseObject("kemimApp", ADArtVisJ2Stress);
 
 InputParameters
 ADArtVisJ2Stress::validParams()

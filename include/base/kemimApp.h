@@ -11,13 +11,13 @@
 
 #include "MooseApp.h"
 
-class catApp : public MooseApp
+class kemimApp : public MooseApp
 {
 public:
   static InputParameters validParams();
 
-  catApp(InputParameters parameters);
-  virtual ~catApp();
+  kemimApp(InputParameters parameters);
+  virtual ~kemimApp();
 
   static void registerApps();
   static void registerAll(Factory & f, ActionFactory & af, Syntax & s);

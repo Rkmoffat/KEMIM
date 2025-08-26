@@ -1,6 +1,6 @@
 #include "ComputeLagrangianJCYieldStress.h"
 
-registerMooseObject("TensorMechanicsApp", ComputeLagrangianJCYieldStress);
+registerMooseObject("kemimApp", ComputeLagrangianJCYieldStress);
 
 InputParameters
 ComputeLagrangianJCYieldStress::validParams()

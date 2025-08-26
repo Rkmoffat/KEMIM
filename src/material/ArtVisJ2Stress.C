@@ -9,7 +9,7 @@
 
 #include "ArtVisJ2Stress.h"
 
-registerMooseObject("catApp", ArtVisJ2Stress);
+registerMooseObject("kemimApp", ArtVisJ2Stress);
 
 InputParameters
 ArtVisJ2Stress::validParams()

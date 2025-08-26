@@ -1,6 +1,6 @@
 #include "ReactionHeatRDX.h"
 
-registerMooseObject("catApp", ReactionHeatRDX);
+registerMooseObject("kemimApp", ReactionHeatRDX);
 
 InputParameters
 ReactionHeatRDX::validParams()

@@ -1,6 +1,6 @@
 #include "ComputeLagrangianJCYieldStressLIPIT.h"
 
-registerMooseObject("TensorMechanicsApp", ComputeLagrangianJCYieldStressLIPIT);
+registerMooseObject("kemimApp", ComputeLagrangianJCYieldStressLIPIT);
 
 InputParameters
 ComputeLagrangianJCYieldStressLIPIT::validParams()

@@ -1,7 +1,7 @@
 #include "ADComputePlasticWorkHeating.h"
 #include "RankTwoTensor.h"
 
-registerMooseObject("catApp", ADComputePlasticWorkHeating);
+registerMooseObject("kemimApp", ADComputePlasticWorkHeating);
 
 InputParameters
 ADComputePlasticWorkHeating::validParams()

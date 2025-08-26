@@ -1,6 +1,6 @@
 #include "ADPressureHSLUMP.h"
 
-registerMooseObject("catApp", ADPressureHSLUMP);
+registerMooseObject("kemimApp", ADPressureHSLUMP);
 
 InputParameters
 ADPressureHSLUMP::validParams()

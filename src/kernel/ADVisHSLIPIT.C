@@ -1,6 +1,6 @@
 #include "ADVisHSLIPIT.h"
 
-registerMooseObject("catApp", ADVisHSLIPIT);
+registerMooseObject("kemimApp", ADVisHSLIPIT);
 
 InputParameters
 ADVisHSLIPIT::validParams()

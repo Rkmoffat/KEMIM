@@ -1,7 +1,7 @@
 #include "ADComputeYdots.h"
 #include "RankTwoTensor.h"
 
-registerMooseObject("beaverApp", ADComputeYdots);
+registerMooseObject("kemimApp", ADComputeYdots);
 
 //NOTE: any material property that depends on a coupled variable value
 //wil be passed as AD to correctly construct the jacobian contribution

@@ -1,7 +1,7 @@
 #include "ComputeYdotsRDXNS.h"
 #include "RankTwoTensor.h"
 
-registerMooseObject("catApp", ComputeYdotsRDXNS);
+registerMooseObject("kemimApp", ComputeYdotsRDXNS);
 
 InputParameters
 ComputeYdotsRDXNS::validParams()

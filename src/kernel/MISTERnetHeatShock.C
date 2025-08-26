@@ -2,7 +2,7 @@
 
 #include "MISTERnetHeatShock.h"
 
-registerMooseObject("TensorMechanicsApp",MISTERnetHeatShock);
+registerMooseObject("kemimApp",MISTERnetHeatShock);
 
 InputParameters
 MISTERnetHeatShock::validParams()

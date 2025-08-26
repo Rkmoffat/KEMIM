@@ -1,6 +1,6 @@
 #include "ADQYdot.h"
 
-registerMooseObject("beaverApp", ADQYdot);
+registerMooseObject("kemimApp", ADQYdot);
 
 InputParameters
 ADQYdot::validParams()

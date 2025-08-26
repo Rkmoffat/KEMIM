@@ -1,6 +1,6 @@
 #include "PressureHS.h"
 
-registerMooseObject("catApp", PressureHS);
+registerMooseObject("kemimApp", PressureHS);
 
 InputParameters
 PressureHS::validParams()

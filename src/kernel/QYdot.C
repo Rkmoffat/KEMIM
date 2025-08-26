@@ -1,6 +1,6 @@
 #include "QYdot.h"
 
-registerMooseObject("catApp", QYdot);
+registerMooseObject("kemimApp", QYdot);
 
 InputParameters
 QYdot::validParams()

@@ -1,6 +1,6 @@
 #include "ComputeInterpolatedPressure.h"
 
-registerMooseObject("TensorMechanicsApp", ComputeInterpolatedPressure);
+registerMooseObject("kemimApp", ComputeInterpolatedPressure);
 
 InputParameters
 ComputeInterpolatedPressure::validParams()

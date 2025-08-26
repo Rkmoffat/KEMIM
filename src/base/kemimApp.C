@@ -1,11 +1,11 @@
-#include "KEMIMApp.h"
+#include "kemimApp.h"
 #include "Moose.h"
 #include "AppFactory.h"
 #include "ModulesApp.h"
 #include "MooseSyntax.h"
 
 InputParameters
-KEMIMApp::validParams()
+kemimApp::validParams()
 {
   InputParameters params = MooseApp::validParams();
   params.set<bool>("use_legacy_material_output") = false;
@@ -13,39 +13,39 @@ KEMIMApp::validParams()
   return params;
 }
 
-KEMIMApp::KEMIMApp(InputParameters parameters) : MooseApp(parameters)
+kemimApp::kemimApp(InputParameters parameters) : MooseApp(parameters)
 {
-  KEMIMApp::registerAll(_factory, _action_factory, _syntax);
+  kemimApp::registerAll(_factory, _action_factory, _syntax);
 }
 
-KEMIMApp::~KEMIMApp() {}
+kemimApp::~kemimApp() {}
 
 void
-KEMIMApp::registerAll(Factory & f, ActionFactory & af, Syntax & syntax)
+kemimApp::registerAll(Factory & f, ActionFactory & af, Syntax & syntax)
 {
-  ModulesApp::registerAllObjects<KEMIMApp>(f, af, syntax);
-  Registry::registerObjectsTo(f, {"KEMIMApp"});
-  Registry::registerActionsTo(af, {"KEMIMApp"});
+  ModulesApp::registerAllObjects<kemimApp>(f, af, syntax);
+  Registry::registerObjectsTo(f, {"kemimApp"});
+  Registry::registerActionsTo(af, {"kemimApp"});
 
   /* register custom execute flags, action syntax, etc. here */
 }
 
 void
-KEMIMApp::registerApps()
+kemimApp::registerApps()
 {
-  registerApp(KEMIMApp);
+  registerApp(kemimApp);
 }
 
 /***************************************************************************************************
  *********************** Dynamic Library Entry Points - DO NOT MODIFY ******************************
  **************************************************************************************************/
 extern "C" void
-KEMIMApp__registerAll(Factory & f, ActionFactory & af, Syntax & s)
+kemimApp__registerAll(Factory & f, ActionFactory & af, Syntax & s)
 {
-  KEMIMApp::registerAll(f, af, s);
+  kemimApp::registerAll(f, af, s);
 }
 extern "C" void
-KEMIMApp__registerApps()
+kemimApp__registerApps()
 {
-  KEMIMApp::registerApps();
+  kemimApp::registerApps();
 }

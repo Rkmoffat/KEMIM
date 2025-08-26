@@ -1,6 +1,6 @@
 #include "VisHS.h"
 
-registerMooseObject("catApp", VisHS);
+registerMooseObject("kemimApp", VisHS);
 
 InputParameters
 VisHS::validParams()

@@ -2,7 +2,7 @@
 
 #include "MISTERnetHeatReact.h"
 
-registerMooseObject("TensorMechanicsApp",MISTERnetHeatReact);
+registerMooseObject("kemimApp",MISTERnetHeatReact);
 
 InputParameters
 MISTERnetHeatReact::validParams()

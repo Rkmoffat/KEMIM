@@ -1,6 +1,6 @@
 #include "ADReactionHeatRDXLUMP.h"
 
-registerMooseObject("catApp", ADReactionHeatRDXLUMP);
+registerMooseObject("kemimApp", ADReactionHeatRDXLUMP);
 
 InputParameters
 ADReactionHeatRDXLUMP::validParams()

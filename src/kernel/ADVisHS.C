@@ -1,6 +1,6 @@
 #include "ADVisHS.h"
 
-registerMooseObject("catApp", ADVisHS);
+registerMooseObject("kemimApp", ADVisHS);
 
 InputParameters
 ADVisHS::validParams()

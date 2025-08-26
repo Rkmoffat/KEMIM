@@ -1,6 +1,6 @@
 #include "Y1_dot.h"
 
-registerMooseObject("catApp", Y1_dot);
+registerMooseObject("kemimApp", Y1_dot);
 
 InputParameters
 Y1_dot::validParams()

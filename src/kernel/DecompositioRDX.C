@@ -1,6 +1,6 @@
 #include "DecompositionRDX.h"
 
-registerMooseObject("beaverApp", DecompositionRDX);
+registerMooseObject("kemimApp", DecompositionRDX);
 
 InputParameters
 DecompositionRDX::validParams()

@@ -1,6 +1,6 @@
 #include "ADY1_dot_RDX.h"
 
-registerMooseObject("catApp", ADY1_dot_RDX);
+registerMooseObject("kemimApp", ADY1_dot_RDX);
 
 InputParameters
 ADY1_dot_RDX::validParams()

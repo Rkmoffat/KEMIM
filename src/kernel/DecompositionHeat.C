@@ -1,6 +1,6 @@
 #include "DecompositionHeat.h"
 
-registerMooseObject("beaverApp", DecompositionHeat);
+registerMooseObject("kemimApp", DecompositionHeat);
 
 InputParameters
 DecompositionHeat::validParams()

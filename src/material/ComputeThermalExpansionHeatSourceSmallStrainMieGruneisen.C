@@ -2,7 +2,7 @@
 
 #include "ComputeThermalExpansionHeatSourceSmallStrainMieGruneisen.h"
 
-registerMooseObject("TensorMechanicsApp",ComputeThermalExpansionHeatSourceSmallStrainMieGruneisen);
+registerMooseObject("kemimApp",ComputeThermalExpansionHeatSourceSmallStrainMieGruneisen);
 
 InputParameters
 ComputeThermalExpansionHeatSourceSmallStrainMieGruneisen::validParams()

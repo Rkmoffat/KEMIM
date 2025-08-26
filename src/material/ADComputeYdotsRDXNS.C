@@ -1,7 +1,7 @@
 #include "ADComputeYdotsRDXNS.h"
 #include "RankTwoTensor.h"
 
-registerMooseObject("catApp", ADComputeYdotsRDXNS);
+registerMooseObject("kemimApp", ADComputeYdotsRDXNS);
 
 InputParameters
 ADComputeYdotsRDXNS::validParams()
@@ -74,7 +74,6 @@ ADComputeYdotsRDXNS::ADComputeYdotsRDXNS(const InputParameters & parameters)
     _Y2_dot(declareADProperty<Real>("Y2_dot")),
     _Y3_dot(declareADProperty<Real>("Y3_dot")),
     _dynamic_tau(getParam<bool>("dynamic_tau")),
-    _time_react(getMaterialProperty<Real>("time_react")),
     _thr(getParam<Real>("thr_activation_rates"))
 {   
 }
@@ -88,7 +87,6 @@ ADComputeYdotsRDXNS::computeQpProperties()
     Real cutoff;
     if (_dynamic_tau){
         condition_chemistry = (_dirac_switch_react[_qp] > 1. ? true : false);
-        cutoff = _time_react[_qp];
     }else{
         condition_chemistry = (_dirac_switch_react[_qp] >= _switch_react ? true : false);
         cutoff = 1.;

@@ -1,6 +1,6 @@
 #include "ADMISTERnetHeatShock.h"
 
-registerMooseObject("TensorMechanicsApp", ADMISTERnetHeatShock);
+registerMooseObject("kemimApp", ADMISTERnetHeatShock);
 
 InputParameters
 ADMISTERnetHeatShock::validParams()

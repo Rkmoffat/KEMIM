@@ -1,6 +1,6 @@
 #include "ADComputeHotspotHeatRate.h"
 
-registerMooseObject("catApp", ADComputeHotspotHeatRate);
+registerMooseObject("kemimApp", ADComputeHotspotHeatRate);
 
 InputParameters
 ADComputeHotspotHeatRate::validParams()

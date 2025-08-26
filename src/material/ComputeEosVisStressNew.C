@@ -4,7 +4,7 @@
 
 #include "ComputeEosVisStressNew.h"
 
-registerMooseObject("TensorMechanicsApp", ComputeEosVisStressNew);
+registerMooseObject("kemimApp", ComputeEosVisStressNew);
 
 InputParameters
 ComputeEosVisStressNew::validParams()

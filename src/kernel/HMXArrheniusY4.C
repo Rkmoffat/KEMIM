@@ -1,6 +1,6 @@
 #include "HMXArrheniusY4.h"
 
-registerMooseObject("beaverApp",HMXArrheniusY4);
+registerMooseObject("kemimApp",HMXArrheniusY4);
 
 InputParameters
 HMXArrheniusY4::validParams()

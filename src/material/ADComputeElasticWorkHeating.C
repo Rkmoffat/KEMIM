@@ -1,6 +1,6 @@
 #include "ADComputeElasticWorkHeating.h"
 
-registerMooseObject("catApp", ADComputeElasticWorkHeating);
+registerMooseObject("kemimApp", ADComputeElasticWorkHeating);
 
 InputParameters
 ADComputeElasticWorkHeating::validParams()

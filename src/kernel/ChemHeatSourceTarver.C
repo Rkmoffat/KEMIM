@@ -1,6 +1,6 @@
 #include "ChemHeatSourceTarver.h"
 
-registerMooseObject("beaverApp", ChemHeatSourceTarver);
+registerMooseObject("kemimApp", ChemHeatSourceTarver);
 
 InputParameters
 ChemHeatSourceTarver::validParams()
