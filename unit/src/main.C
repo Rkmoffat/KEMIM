@@ -7,7 +7,11 @@
 //* Licensed under LGPL 2.1, please see LICENSE for details
 //* https://www.gnu.org/licenses/lgpl-2.1.html
 
+<<<<<<< HEAD
 #include "KEMIMApp.h"
+=======
+#include "catApp.h"
+>>>>>>> origin/codebase
 #include "gtest/gtest.h"
 
 // Moose includes
@@ -25,7 +29,11 @@ main(int argc, char ** argv)
   testing::InitGoogleTest(&argc, argv);
 
   MooseInit init(argc, argv);
+<<<<<<< HEAD
   registerApp(KEMIMApp);
+=======
+  registerApp(catApp);
+>>>>>>> origin/codebase
   Moose::_throw_on_error = true;
   Moose::_throw_on_warning = true;
 

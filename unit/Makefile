@@ -66,5 +66,6 @@ kemim_unit_srcfiles := $(shell find $(CURRENT_DIR)/src -name "*.C")
 kemim_unit_deps := $(patsubst %.C, %.$(obj-suffix).d, $(kemim_unit_srcfiles))
 -include $(kemim_unit_deps)
 
+
 ###############################################################################
 # Additional special case targets should be added here

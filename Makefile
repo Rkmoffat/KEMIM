@@ -24,32 +24,32 @@ include $(FRAMEWORK_DIR)/moose.mk
 # yes as needed.  Or set ALL_MODULES to yes to turn on everything (overrides
 # other set variables).
 
-ALL_MODULES                 := no
+ALL_MODULES                 := yes
 
-CHEMICAL_REACTIONS          := no
-CONTACT                     := no
-ELECTROMAGNETICS            := no
-EXTERNAL_PETSC_SOLVER       := no
-FLUID_PROPERTIES            := no
-FSI                         := no
-FUNCTIONAL_EXPANSION_TOOLS  := no
-GEOCHEMISTRY                := no
-HEAT_TRANSFER               := no
-LEVEL_SET                   := no
-MISC                        := no
-NAVIER_STOKES               := no
-OPTIMIZATION                := no
-PERIDYNAMICS                := no
-PHASE_FIELD                 := no
-POROUS_FLOW                 := no
-RAY_TRACING                 := no
-REACTOR                     := no
-RDG                         := no
-RICHARDS                    := no
-SOLID_MECHANICS             := no
-STOCHASTIC_TOOLS            := no
-THERMAL_HYDRAULICS          := no
-XFEM                        := no
+CHEMICAL_REACTIONS          := yes
+CONTACT                     := yes
+ELECTROMAGNETICS            := yes
+EXTERNAL_PETSC_SOLVER       := yes
+FLUID_PROPERTIES            := yes
+FSI                         := yes
+FUNCTIONAL_EXPANSION_TOOLS  := yes
+GEOCHEMISTRY                := yes
+HEAT_TRANSFER               := yes
+LEVEL_SET                   := yes
+MISC                        := yes
+NAVIER_STOKES               := yes
+OPTIMIZATION                := yes
+PERIDYNAMICS                := yes
+PHASE_FIELD                 := yes
+POROUS_FLOW                 := yes
+RAY_TRACING                 := yes
+REACTOR                     := yes
+RDG                         := yes
+RICHARDS                    := yes
+SOLID_MECHANICS             := yes
+STOCHASTIC_TOOLS            := no 
+THERMAL_HYDRAULICS          := yes
+XFEM                        := yes
 
 include $(MOOSE_DIR)/modules/modules.mk
 ###############################################################################

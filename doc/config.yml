@@ -1,5 +1,6 @@
 Content:
     KEMIM:
+
         root_dir: ${ROOT_DIR}/doc/content
     moose:
         root_dir: ${MOOSE_DIR}/framework/doc/content
